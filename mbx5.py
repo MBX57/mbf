@@ -229,7 +229,7 @@ def buka(d):
 		return x
 def login():
 	global log
-	us = inputD('[?] Email/HP')
+	us = inputD('[?] Email/HP/ib')
 	pa = inputD('[?] Kata Sandi')
 	cetak('!h[*] Sedang Login....')
 	buka('https://m.facebook.com')
